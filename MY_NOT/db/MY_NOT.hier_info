@@ -1,0 +1,5 @@
+|MY_NOT
+my_output <= inst.DB_MAX_OUTPUT_PORT_TYPE
+my_input => inst.IN0
+
+
