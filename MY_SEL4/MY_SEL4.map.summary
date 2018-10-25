@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 25 20:19:01 2018
+Quartus II Version : 8.0 Build 231 07/10/2008 SP 1 SJ Full Version
+Revision Name : MY_SEL4
+Top-level Entity Name : MY_SEL4
+Family : Cyclone II
+Total logic elements : 2
+    Total combinational functions : 2
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
