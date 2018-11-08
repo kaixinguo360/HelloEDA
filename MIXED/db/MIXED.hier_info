@@ -1,0 +1,17 @@
+|MIXED
+F <= VHDL_NOR:inst.F
+A => MY_NOT:inst1.my_input
+B => VHDL_NOR:inst.B
+
+
+|MIXED|VHDL_NOR:inst
+A => p1~0.IN0
+B => p1~0.IN1
+F <= p1~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MIXED|MY_NOT:inst1
+my_output <= inst.DB_MAX_OUTPUT_PORT_TYPE
+my_input => inst.IN0
+
+

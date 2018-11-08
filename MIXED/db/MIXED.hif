@@ -1,0 +1,98 @@
+Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+11
+1009
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+MIXED
+# storage
+db|MIXED.(0).cnf
+db|MIXED.(0).cnf
+# case_insensitive
+# source_file
+MIXED.bdf
+13bf1368574ed5f63d3fff1463353d4
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+VHDL_NOR
+# storage
+db|MIXED.(1).cnf
+db|MIXED.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|VHDL_NOR|VHDL_NOR.vhd
+1ef3a887ec27c2ea77de653ddcb3fdf
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+VHDL_NOR:inst
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+MY_NOT
+# storage
+db|MIXED.(2).cnf
+db|MIXED.(2).cnf
+# case_insensitive
+# source_file
+..|MY_NOT|MY_NOT.bdf
+c82dbda923b7ea25595c36b8f39
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MY_NOT:inst1
+}
+# macro_sequence
+
+# end
+# complete
+
