@@ -1,0 +1,152 @@
+Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+11
+1009
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+..|..|fjx_179|divider|
+..|..|fjx_179|led_seven|
+..|..|fjx_179|geshiwei|
+..|..|fjx_179|counter50|
+..|..|fjx_179|deng|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+MY_LIGHT
+# storage
+db|TEST_LIGHT.(1).cnf
+db|TEST_LIGHT.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|MY_LIGHT|MY_LIGHT.vhd
+54a6c36361b8f03bbaa3e9f53ab74c22
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MY_LIGHT:inst
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+MY_DIVIDER
+# storage
+db|TEST_LIGHT.(2).cnf
+db|TEST_LIGHT.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|MY_DIVIDER|MY_DIVIDER.vhd
+ba429f35d51a1d659ca2d25ea34f643
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MY_DIVIDER:inst1
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+MY_LED7
+# storage
+db|TEST_LIGHT.(3).cnf
+db|TEST_LIGHT.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|MY_LED7|MY_LED7.vhd
+8ab9a5be8e1c643befef14a77c7a6196
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MY_LED7:inst3
+MY_LED7:inst2
+MY_LED7:inst5
+MY_LED7:inst4
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+TEST_LIGHT
+# storage
+db|TEST_LIGHT.(0).cnf
+db|TEST_LIGHT.(0).cnf
+# case_insensitive
+# source_file
+TEST_LIGHT.bdf
+b9c048bc427525cc84b18885be67cf8
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
