@@ -1,0 +1,286 @@
+Simulator report for MY_DIVIDER
+Thu Nov 29 10:49:38 2018
+Quartus II Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 97 nodes     ;
+; Simulation Coverage         ;      67.71 % ;
+; Total Number of Transitions ; 1362385      ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      67.71 % ;
+; Total nodes checked                                 ; 97           ;
+; Total output ports checked                          ; 96           ;
+; Total output ports with complete 1/0-value coverage ; 65           ;
+; Total output ports with no 1/0-value coverage       ; 30           ;
+; Total output ports with no 1-value coverage         ; 30           ;
+; Total output ports with no 0-value coverage         ; 31           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                    ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |MY_DIVIDER|DATA[3]  ; |MY_DIVIDER|DATA[3]  ; regout           ;
+; |MY_DIVIDER|DATA[2]  ; |MY_DIVIDER|DATA[2]  ; regout           ;
+; |MY_DIVIDER|DATA[1]  ; |MY_DIVIDER|DATA[1]  ; regout           ;
+; |MY_DIVIDER|DATA[0]  ; |MY_DIVIDER|DATA[0]  ; regout           ;
+; |MY_DIVIDER|DATA~7   ; |MY_DIVIDER|DATA~7   ; out              ;
+; |MY_DIVIDER|DATA~8   ; |MY_DIVIDER|DATA~8   ; out              ;
+; |MY_DIVIDER|DATA~9   ; |MY_DIVIDER|DATA~9   ; out              ;
+; |MY_DIVIDER|DATA~10  ; |MY_DIVIDER|DATA~10  ; out              ;
+; |MY_DIVIDER|DATA~11  ; |MY_DIVIDER|DATA~11  ; out              ;
+; |MY_DIVIDER|DATA~12  ; |MY_DIVIDER|DATA~12  ; out              ;
+; |MY_DIVIDER|DATA~13  ; |MY_DIVIDER|DATA~13  ; out              ;
+; |MY_DIVIDER|DATA~14  ; |MY_DIVIDER|DATA~14  ; out              ;
+; |MY_DIVIDER|DATA~15  ; |MY_DIVIDER|DATA~15  ; out              ;
+; |MY_DIVIDER|DATA~16  ; |MY_DIVIDER|DATA~16  ; out              ;
+; |MY_DIVIDER|DATA~17  ; |MY_DIVIDER|DATA~17  ; out              ;
+; |MY_DIVIDER|DATA~18  ; |MY_DIVIDER|DATA~18  ; out              ;
+; |MY_DIVIDER|DATA~19  ; |MY_DIVIDER|DATA~19  ; out              ;
+; |MY_DIVIDER|DATA~20  ; |MY_DIVIDER|DATA~20  ; out              ;
+; |MY_DIVIDER|DATA~21  ; |MY_DIVIDER|DATA~21  ; out              ;
+; |MY_DIVIDER|DATA~22  ; |MY_DIVIDER|DATA~22  ; out              ;
+; |MY_DIVIDER|DATA~23  ; |MY_DIVIDER|DATA~23  ; out              ;
+; |MY_DIVIDER|DATA[4]  ; |MY_DIVIDER|DATA[4]  ; regout           ;
+; |MY_DIVIDER|DATA[5]  ; |MY_DIVIDER|DATA[5]  ; regout           ;
+; |MY_DIVIDER|DATA[6]  ; |MY_DIVIDER|DATA[6]  ; regout           ;
+; |MY_DIVIDER|DATA[7]  ; |MY_DIVIDER|DATA[7]  ; regout           ;
+; |MY_DIVIDER|DATA[8]  ; |MY_DIVIDER|DATA[8]  ; regout           ;
+; |MY_DIVIDER|DATA[9]  ; |MY_DIVIDER|DATA[9]  ; regout           ;
+; |MY_DIVIDER|DATA[10] ; |MY_DIVIDER|DATA[10] ; regout           ;
+; |MY_DIVIDER|DATA[11] ; |MY_DIVIDER|DATA[11] ; regout           ;
+; |MY_DIVIDER|DATA[12] ; |MY_DIVIDER|DATA[12] ; regout           ;
+; |MY_DIVIDER|DATA[13] ; |MY_DIVIDER|DATA[13] ; regout           ;
+; |MY_DIVIDER|DATA[14] ; |MY_DIVIDER|DATA[14] ; regout           ;
+; |MY_DIVIDER|DATA[15] ; |MY_DIVIDER|DATA[15] ; regout           ;
+; |MY_DIVIDER|CLK      ; |MY_DIVIDER|CLK      ; out              ;
+; |MY_DIVIDER|Add0~120 ; |MY_DIVIDER|Add0~120 ; out0             ;
+; |MY_DIVIDER|Add0~121 ; |MY_DIVIDER|Add0~121 ; out0             ;
+; |MY_DIVIDER|Add0~122 ; |MY_DIVIDER|Add0~122 ; out0             ;
+; |MY_DIVIDER|Add0~123 ; |MY_DIVIDER|Add0~123 ; out0             ;
+; |MY_DIVIDER|Add0~124 ; |MY_DIVIDER|Add0~124 ; out0             ;
+; |MY_DIVIDER|Add0~125 ; |MY_DIVIDER|Add0~125 ; out0             ;
+; |MY_DIVIDER|Add0~126 ; |MY_DIVIDER|Add0~126 ; out0             ;
+; |MY_DIVIDER|Add0~127 ; |MY_DIVIDER|Add0~127 ; out0             ;
+; |MY_DIVIDER|Add0~128 ; |MY_DIVIDER|Add0~128 ; out0             ;
+; |MY_DIVIDER|Add0~129 ; |MY_DIVIDER|Add0~129 ; out0             ;
+; |MY_DIVIDER|Add0~130 ; |MY_DIVIDER|Add0~130 ; out0             ;
+; |MY_DIVIDER|Add0~131 ; |MY_DIVIDER|Add0~131 ; out0             ;
+; |MY_DIVIDER|Add0~132 ; |MY_DIVIDER|Add0~132 ; out0             ;
+; |MY_DIVIDER|Add0~133 ; |MY_DIVIDER|Add0~133 ; out0             ;
+; |MY_DIVIDER|Add0~134 ; |MY_DIVIDER|Add0~134 ; out0             ;
+; |MY_DIVIDER|Add0~135 ; |MY_DIVIDER|Add0~135 ; out0             ;
+; |MY_DIVIDER|Add0~136 ; |MY_DIVIDER|Add0~136 ; out0             ;
+; |MY_DIVIDER|Add0~137 ; |MY_DIVIDER|Add0~137 ; out0             ;
+; |MY_DIVIDER|Add0~138 ; |MY_DIVIDER|Add0~138 ; out0             ;
+; |MY_DIVIDER|Add0~139 ; |MY_DIVIDER|Add0~139 ; out0             ;
+; |MY_DIVIDER|Add0~140 ; |MY_DIVIDER|Add0~140 ; out0             ;
+; |MY_DIVIDER|Add0~141 ; |MY_DIVIDER|Add0~141 ; out0             ;
+; |MY_DIVIDER|Add0~142 ; |MY_DIVIDER|Add0~142 ; out0             ;
+; |MY_DIVIDER|Add0~143 ; |MY_DIVIDER|Add0~143 ; out0             ;
+; |MY_DIVIDER|Add0~144 ; |MY_DIVIDER|Add0~144 ; out0             ;
+; |MY_DIVIDER|Add0~145 ; |MY_DIVIDER|Add0~145 ; out0             ;
+; |MY_DIVIDER|Add0~146 ; |MY_DIVIDER|Add0~146 ; out0             ;
+; |MY_DIVIDER|Add0~147 ; |MY_DIVIDER|Add0~147 ; out0             ;
+; |MY_DIVIDER|Add0~148 ; |MY_DIVIDER|Add0~148 ; out0             ;
+; |MY_DIVIDER|Add0~149 ; |MY_DIVIDER|Add0~149 ; out0             ;
+; |MY_DIVIDER|Add0~150 ; |MY_DIVIDER|Add0~150 ; out0             ;
++----------------------+----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------+
+; Missing 1-Value Coverage                                         ;
++-----------------------+-----------------------+------------------+
+; Node Name             ; Output Port Name      ; Output Port Type ;
++-----------------------+-----------------------+------------------+
+; |MY_DIVIDER|DATA~0    ; |MY_DIVIDER|DATA~0    ; out              ;
+; |MY_DIVIDER|DATA~1    ; |MY_DIVIDER|DATA~1    ; out              ;
+; |MY_DIVIDER|DATA~2    ; |MY_DIVIDER|DATA~2    ; out              ;
+; |MY_DIVIDER|DATA~3    ; |MY_DIVIDER|DATA~3    ; out              ;
+; |MY_DIVIDER|DATA~4    ; |MY_DIVIDER|DATA~4    ; out              ;
+; |MY_DIVIDER|DATA~5    ; |MY_DIVIDER|DATA~5    ; out              ;
+; |MY_DIVIDER|DATA~6    ; |MY_DIVIDER|DATA~6    ; out              ;
+; |MY_DIVIDER|DATA[17]  ; |MY_DIVIDER|DATA[17]  ; regout           ;
+; |MY_DIVIDER|DATA[18]  ; |MY_DIVIDER|DATA[18]  ; regout           ;
+; |MY_DIVIDER|DATA[19]  ; |MY_DIVIDER|DATA[19]  ; regout           ;
+; |MY_DIVIDER|DATA[20]  ; |MY_DIVIDER|DATA[20]  ; regout           ;
+; |MY_DIVIDER|DATA[21]  ; |MY_DIVIDER|DATA[21]  ; regout           ;
+; |MY_DIVIDER|DATA[22]  ; |MY_DIVIDER|DATA[22]  ; regout           ;
+; |MY_DIVIDER|DATA[23]  ; |MY_DIVIDER|DATA[23]  ; regout           ;
+; |MY_DIVIDER|Y         ; |MY_DIVIDER|Y         ; pin_out          ;
+; |MY_DIVIDER|Add0~151  ; |MY_DIVIDER|Add0~151  ; out0             ;
+; |MY_DIVIDER|Add0~152  ; |MY_DIVIDER|Add0~152  ; out0             ;
+; |MY_DIVIDER|Add0~153  ; |MY_DIVIDER|Add0~153  ; out0             ;
+; |MY_DIVIDER|Add0~154  ; |MY_DIVIDER|Add0~154  ; out0             ;
+; |MY_DIVIDER|Add0~155  ; |MY_DIVIDER|Add0~155  ; out0             ;
+; |MY_DIVIDER|Add0~156  ; |MY_DIVIDER|Add0~156  ; out0             ;
+; |MY_DIVIDER|Add0~157  ; |MY_DIVIDER|Add0~157  ; out0             ;
+; |MY_DIVIDER|Add0~158  ; |MY_DIVIDER|Add0~158  ; out0             ;
+; |MY_DIVIDER|Add0~159  ; |MY_DIVIDER|Add0~159  ; out0             ;
+; |MY_DIVIDER|Add0~160  ; |MY_DIVIDER|Add0~160  ; out0             ;
+; |MY_DIVIDER|Add0~161  ; |MY_DIVIDER|Add0~161  ; out0             ;
+; |MY_DIVIDER|Add0~162  ; |MY_DIVIDER|Add0~162  ; out0             ;
+; |MY_DIVIDER|Add0~163  ; |MY_DIVIDER|Add0~163  ; out0             ;
+; |MY_DIVIDER|Add0~164  ; |MY_DIVIDER|Add0~164  ; out0             ;
+; |MY_DIVIDER|Equal0~25 ; |MY_DIVIDER|Equal0~25 ; out0             ;
++-----------------------+-----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------+
+; Missing 0-Value Coverage                                         ;
++-----------------------+-----------------------+------------------+
+; Node Name             ; Output Port Name      ; Output Port Type ;
++-----------------------+-----------------------+------------------+
+; |MY_DIVIDER|DATA~0    ; |MY_DIVIDER|DATA~0    ; out              ;
+; |MY_DIVIDER|DATA~1    ; |MY_DIVIDER|DATA~1    ; out              ;
+; |MY_DIVIDER|DATA~2    ; |MY_DIVIDER|DATA~2    ; out              ;
+; |MY_DIVIDER|DATA~3    ; |MY_DIVIDER|DATA~3    ; out              ;
+; |MY_DIVIDER|DATA~4    ; |MY_DIVIDER|DATA~4    ; out              ;
+; |MY_DIVIDER|DATA~5    ; |MY_DIVIDER|DATA~5    ; out              ;
+; |MY_DIVIDER|DATA~6    ; |MY_DIVIDER|DATA~6    ; out              ;
+; |MY_DIVIDER|DATA[16]  ; |MY_DIVIDER|DATA[16]  ; regout           ;
+; |MY_DIVIDER|DATA[17]  ; |MY_DIVIDER|DATA[17]  ; regout           ;
+; |MY_DIVIDER|DATA[18]  ; |MY_DIVIDER|DATA[18]  ; regout           ;
+; |MY_DIVIDER|DATA[19]  ; |MY_DIVIDER|DATA[19]  ; regout           ;
+; |MY_DIVIDER|DATA[20]  ; |MY_DIVIDER|DATA[20]  ; regout           ;
+; |MY_DIVIDER|DATA[21]  ; |MY_DIVIDER|DATA[21]  ; regout           ;
+; |MY_DIVIDER|DATA[22]  ; |MY_DIVIDER|DATA[22]  ; regout           ;
+; |MY_DIVIDER|DATA[23]  ; |MY_DIVIDER|DATA[23]  ; regout           ;
+; |MY_DIVIDER|Y         ; |MY_DIVIDER|Y         ; pin_out          ;
+; |MY_DIVIDER|Add0~151  ; |MY_DIVIDER|Add0~151  ; out0             ;
+; |MY_DIVIDER|Add0~152  ; |MY_DIVIDER|Add0~152  ; out0             ;
+; |MY_DIVIDER|Add0~153  ; |MY_DIVIDER|Add0~153  ; out0             ;
+; |MY_DIVIDER|Add0~154  ; |MY_DIVIDER|Add0~154  ; out0             ;
+; |MY_DIVIDER|Add0~155  ; |MY_DIVIDER|Add0~155  ; out0             ;
+; |MY_DIVIDER|Add0~156  ; |MY_DIVIDER|Add0~156  ; out0             ;
+; |MY_DIVIDER|Add0~157  ; |MY_DIVIDER|Add0~157  ; out0             ;
+; |MY_DIVIDER|Add0~158  ; |MY_DIVIDER|Add0~158  ; out0             ;
+; |MY_DIVIDER|Add0~159  ; |MY_DIVIDER|Add0~159  ; out0             ;
+; |MY_DIVIDER|Add0~160  ; |MY_DIVIDER|Add0~160  ; out0             ;
+; |MY_DIVIDER|Add0~161  ; |MY_DIVIDER|Add0~161  ; out0             ;
+; |MY_DIVIDER|Add0~162  ; |MY_DIVIDER|Add0~162  ; out0             ;
+; |MY_DIVIDER|Add0~163  ; |MY_DIVIDER|Add0~163  ; out0             ;
+; |MY_DIVIDER|Add0~164  ; |MY_DIVIDER|Add0~164  ; out0             ;
+; |MY_DIVIDER|Equal0~25 ; |MY_DIVIDER|Equal0~25 ; out0             ;
++-----------------------+-----------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+    Info: Processing started: Thu Nov 29 10:49:28 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off MY_DIVIDER -c MY_DIVIDER
+Info: Using vector source file "D:/LKW_108/MY_DIVIDER/MY_DIVIDER.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      67.71 %
+Info: Number of transitions in simulation is 1362385
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 135 megabytes
+    Info: Processing ended: Thu Nov 29 10:49:38 2018
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:09
+
+
