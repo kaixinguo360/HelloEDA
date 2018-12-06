@@ -1,0 +1,22 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+USE IEEE.std_logic_unsigned.all;
+
+Entity MY_BARKER is
+	port(
+		CLK: IN std_logic;
+		BA: OUT std_logic;
+		OCLK: OUT std_logic
+	);
+End MY_BARKER;
+
+Architecture behave of MY_BARKER is 
+signal SUM: std_logic_vector(4 downto 0);
+begin
+	process(A, B, CI, SUM)
+	begin
+		SUM <= ('0' & A) + ('0' & B) + CI;
+		Y <= SUM(3 downto 0);
+		CO <= SUM(4);
+	end process;
+End Architecture behave;
