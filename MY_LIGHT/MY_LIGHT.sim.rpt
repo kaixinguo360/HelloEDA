@@ -1,0 +1,381 @@
+Simulator report for MY_LIGHT
+Thu Dec 06 11:15:42 2018
+Quartus II Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 215 nodes    ;
+; Simulation Coverage         ;      97.21 % ;
+; Total Number of Transitions ; 8980         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      97.21 % ;
+; Total nodes checked                                 ; 215          ;
+; Total output ports checked                          ; 215          ;
+; Total output ports with complete 1/0-value coverage ; 209          ;
+; Total output ports with no 1/0-value coverage       ; 6            ;
+; Total output ports with no 1-value coverage         ; 6            ;
+; Total output ports with no 0-value coverage         ; 6            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                ;
++----------------------------+----------------------------+------------------+
+; Node Name                  ; Output Port Name           ; Output Port Type ;
++----------------------------+----------------------------+------------------+
+; |MY_LIGHT|B_NUM[1]         ; |MY_LIGHT|B_NUM[1]         ; out              ;
+; |MY_LIGHT|COUNT~0          ; |MY_LIGHT|COUNT~0          ; out              ;
+; |MY_LIGHT|COUNT~1          ; |MY_LIGHT|COUNT~1          ; out              ;
+; |MY_LIGHT|COUNT~2          ; |MY_LIGHT|COUNT~2          ; out              ;
+; |MY_LIGHT|COUNT~3          ; |MY_LIGHT|COUNT~3          ; out              ;
+; |MY_LIGHT|COUNT~4          ; |MY_LIGHT|COUNT~4          ; out              ;
+; |MY_LIGHT|COUNT~5          ; |MY_LIGHT|COUNT~5          ; out              ;
+; |MY_LIGHT|COUNT~6          ; |MY_LIGHT|COUNT~6          ; out              ;
+; |MY_LIGHT|COUNT~7          ; |MY_LIGHT|COUNT~7          ; out              ;
+; |MY_LIGHT|COUNT~8          ; |MY_LIGHT|COUNT~8          ; out              ;
+; |MY_LIGHT|COUNT~9          ; |MY_LIGHT|COUNT~9          ; out              ;
+; |MY_LIGHT|COUNT~10         ; |MY_LIGHT|COUNT~10         ; out              ;
+; |MY_LIGHT|COUNT~11         ; |MY_LIGHT|COUNT~11         ; out              ;
+; |MY_LIGHT|COUNT~12         ; |MY_LIGHT|COUNT~12         ; out              ;
+; |MY_LIGHT|COUNT~13         ; |MY_LIGHT|COUNT~13         ; out              ;
+; |MY_LIGHT|COUNT~14         ; |MY_LIGHT|COUNT~14         ; out              ;
+; |MY_LIGHT|COUNT~15         ; |MY_LIGHT|COUNT~15         ; out              ;
+; |MY_LIGHT|COUNT~16         ; |MY_LIGHT|COUNT~16         ; out              ;
+; |MY_LIGHT|COUNT~17         ; |MY_LIGHT|COUNT~17         ; out              ;
+; |MY_LIGHT|B_NUM[2]~0       ; |MY_LIGHT|B_NUM[2]~0       ; out              ;
+; |MY_LIGHT|B_NUM[2]~1       ; |MY_LIGHT|B_NUM[2]~1       ; out              ;
+; |MY_LIGHT|B_NUM[2]~2       ; |MY_LIGHT|B_NUM[2]~2       ; out              ;
+; |MY_LIGHT|B_NUM[0]         ; |MY_LIGHT|B_NUM[0]         ; out              ;
+; |MY_LIGHT|B_NUM[1]~3       ; |MY_LIGHT|B_NUM[1]~3       ; out              ;
+; |MY_LIGHT|B_NUM[1]~4       ; |MY_LIGHT|B_NUM[1]~4       ; out              ;
+; |MY_LIGHT|B_NUM[1]~5       ; |MY_LIGHT|B_NUM[1]~5       ; out              ;
+; |MY_LIGHT|B_NUM[3]         ; |MY_LIGHT|B_NUM[3]         ; out              ;
+; |MY_LIGHT|B_NUM[0]~6       ; |MY_LIGHT|B_NUM[0]~6       ; out              ;
+; |MY_LIGHT|COUNT[0]         ; |MY_LIGHT|COUNT[0]         ; regout           ;
+; |MY_LIGHT|B_LIGHT[1]~0     ; |MY_LIGHT|B_LIGHT[1]~0     ; out              ;
+; |MY_LIGHT|B_LIGHT[0]~1     ; |MY_LIGHT|B_LIGHT[0]~1     ; out              ;
+; |MY_LIGHT|B_NUM[0]~7       ; |MY_LIGHT|B_NUM[0]~7       ; out              ;
+; |MY_LIGHT|B_NUM[0]~8       ; |MY_LIGHT|B_NUM[0]~8       ; out              ;
+; |MY_LIGHT|A_NUM10~0        ; |MY_LIGHT|A_NUM10~0        ; out              ;
+; |MY_LIGHT|A_NUM1~0         ; |MY_LIGHT|A_NUM1~0         ; out              ;
+; |MY_LIGHT|A_NUM1~1         ; |MY_LIGHT|A_NUM1~1         ; out              ;
+; |MY_LIGHT|A_NUM1~2         ; |MY_LIGHT|A_NUM1~2         ; out              ;
+; |MY_LIGHT|A_NUM1~3         ; |MY_LIGHT|A_NUM1~3         ; out              ;
+; |MY_LIGHT|A_NUM1~4         ; |MY_LIGHT|A_NUM1~4         ; out              ;
+; |MY_LIGHT|A_NUM1~5         ; |MY_LIGHT|A_NUM1~5         ; out              ;
+; |MY_LIGHT|B_NUM10~0        ; |MY_LIGHT|B_NUM10~0        ; out              ;
+; |MY_LIGHT|B_NUM1~0         ; |MY_LIGHT|B_NUM1~0         ; out              ;
+; |MY_LIGHT|B_NUM1~1         ; |MY_LIGHT|B_NUM1~1         ; out              ;
+; |MY_LIGHT|B_NUM1~2         ; |MY_LIGHT|B_NUM1~2         ; out              ;
+; |MY_LIGHT|B_NUM1~3         ; |MY_LIGHT|B_NUM1~3         ; out              ;
+; |MY_LIGHT|B_NUM1~4         ; |MY_LIGHT|B_NUM1~4         ; out              ;
+; |MY_LIGHT|B_NUM1~5         ; |MY_LIGHT|B_NUM1~5         ; out              ;
+; |MY_LIGHT|B_NUM[3]~9       ; |MY_LIGHT|B_NUM[3]~9       ; out              ;
+; |MY_LIGHT|B_NUM[3]~10      ; |MY_LIGHT|B_NUM[3]~10      ; out              ;
+; |MY_LIGHT|B_NUM[3]~11      ; |MY_LIGHT|B_NUM[3]~11      ; out              ;
+; |MY_LIGHT|B_NUM[4]         ; |MY_LIGHT|B_NUM[4]         ; out              ;
+; |MY_LIGHT|B_NUM[4]~12      ; |MY_LIGHT|B_NUM[4]~12      ; out              ;
+; |MY_LIGHT|B_NUM[4]~13      ; |MY_LIGHT|B_NUM[4]~13      ; out              ;
+; |MY_LIGHT|B_NUM[4]~14      ; |MY_LIGHT|B_NUM[4]~14      ; out              ;
+; |MY_LIGHT|comb~0           ; |MY_LIGHT|comb~0           ; out0             ;
+; |MY_LIGHT|B_LIGHT[0]~2     ; |MY_LIGHT|B_LIGHT[0]~2     ; out              ;
+; |MY_LIGHT|comb~1           ; |MY_LIGHT|comb~1           ; out0             ;
+; |MY_LIGHT|B_LIGHT[1]~3     ; |MY_LIGHT|B_LIGHT[1]~3     ; out              ;
+; |MY_LIGHT|comb~2           ; |MY_LIGHT|comb~2           ; out0             ;
+; |MY_LIGHT|B_LIGHT[2]~4     ; |MY_LIGHT|B_LIGHT[2]~4     ; out              ;
+; |MY_LIGHT|A_NUM[0]         ; |MY_LIGHT|A_NUM[0]         ; out              ;
+; |MY_LIGHT|A_NUM[0]~0       ; |MY_LIGHT|A_NUM[0]~0       ; out0             ;
+; |MY_LIGHT|A_NUM[0]~1       ; |MY_LIGHT|A_NUM[0]~1       ; out              ;
+; |MY_LIGHT|A_NUM[0]~2       ; |MY_LIGHT|A_NUM[0]~2       ; out0             ;
+; |MY_LIGHT|A_NUM[0]~3       ; |MY_LIGHT|A_NUM[0]~3       ; out              ;
+; |MY_LIGHT|A_NUM[0]~4       ; |MY_LIGHT|A_NUM[0]~4       ; out0             ;
+; |MY_LIGHT|A_NUM[1]         ; |MY_LIGHT|A_NUM[1]         ; out              ;
+; |MY_LIGHT|A_NUM[1]~5       ; |MY_LIGHT|A_NUM[1]~5       ; out              ;
+; |MY_LIGHT|A_NUM[1]~6       ; |MY_LIGHT|A_NUM[1]~6       ; out              ;
+; |MY_LIGHT|A_NUM[2]         ; |MY_LIGHT|A_NUM[2]         ; out              ;
+; |MY_LIGHT|A_NUM[2]~7       ; |MY_LIGHT|A_NUM[2]~7       ; out              ;
+; |MY_LIGHT|A_NUM[2]~8       ; |MY_LIGHT|A_NUM[2]~8       ; out              ;
+; |MY_LIGHT|A_NUM[3]         ; |MY_LIGHT|A_NUM[3]         ; out              ;
+; |MY_LIGHT|A_NUM[3]~9       ; |MY_LIGHT|A_NUM[3]~9       ; out              ;
+; |MY_LIGHT|A_NUM[3]~10      ; |MY_LIGHT|A_NUM[3]~10      ; out              ;
+; |MY_LIGHT|A_NUM[4]         ; |MY_LIGHT|A_NUM[4]         ; out              ;
+; |MY_LIGHT|A_NUM[4]~11      ; |MY_LIGHT|A_NUM[4]~11      ; out              ;
+; |MY_LIGHT|A_NUM[4]~12      ; |MY_LIGHT|A_NUM[4]~12      ; out              ;
+; |MY_LIGHT|comb~3           ; |MY_LIGHT|comb~3           ; out0             ;
+; |MY_LIGHT|comb~4           ; |MY_LIGHT|comb~4           ; out0             ;
+; |MY_LIGHT|A_LIGHT[1]~0     ; |MY_LIGHT|A_LIGHT[1]~0     ; out              ;
+; |MY_LIGHT|comb~5           ; |MY_LIGHT|comb~5           ; out0             ;
+; |MY_LIGHT|A_LIGHT[2]~1     ; |MY_LIGHT|A_LIGHT[2]~1     ; out              ;
+; |MY_LIGHT|COUNT[1]         ; |MY_LIGHT|COUNT[1]         ; regout           ;
+; |MY_LIGHT|COUNT[2]         ; |MY_LIGHT|COUNT[2]         ; regout           ;
+; |MY_LIGHT|A_LIGHT[2]$latch ; |MY_LIGHT|A_LIGHT[2]$latch ; out              ;
+; |MY_LIGHT|comb~6           ; |MY_LIGHT|comb~6           ; out0             ;
+; |MY_LIGHT|A_LIGHT[1]$latch ; |MY_LIGHT|A_LIGHT[1]$latch ; out              ;
+; |MY_LIGHT|COUNT[3]         ; |MY_LIGHT|COUNT[3]         ; regout           ;
+; |MY_LIGHT|comb~7           ; |MY_LIGHT|comb~7           ; out0             ;
+; |MY_LIGHT|A_LIGHT[0]$latch ; |MY_LIGHT|A_LIGHT[0]$latch ; out              ;
+; |MY_LIGHT|comb~8           ; |MY_LIGHT|comb~8           ; out0             ;
+; |MY_LIGHT|COUNT[4]         ; |MY_LIGHT|COUNT[4]         ; regout           ;
+; |MY_LIGHT|B_LIGHT[2]$latch ; |MY_LIGHT|B_LIGHT[2]$latch ; out              ;
+; |MY_LIGHT|comb~9           ; |MY_LIGHT|comb~9           ; out0             ;
+; |MY_LIGHT|B_LIGHT[1]$latch ; |MY_LIGHT|B_LIGHT[1]$latch ; out              ;
+; |MY_LIGHT|comb~10          ; |MY_LIGHT|comb~10          ; out0             ;
+; |MY_LIGHT|COUNT[5]         ; |MY_LIGHT|COUNT[5]         ; regout           ;
+; |MY_LIGHT|B_LIGHT[0]$latch ; |MY_LIGHT|B_LIGHT[0]$latch ; out              ;
+; |MY_LIGHT|comb~11          ; |MY_LIGHT|comb~11          ; out0             ;
+; |MY_LIGHT|B_NUM[2]         ; |MY_LIGHT|B_NUM[2]         ; out              ;
+; |MY_LIGHT|CLK              ; |MY_LIGHT|CLK              ; out              ;
+; |MY_LIGHT|A_NUM10[0]       ; |MY_LIGHT|A_NUM10[0]       ; pin_out          ;
+; |MY_LIGHT|A_NUM10[1]       ; |MY_LIGHT|A_NUM10[1]       ; pin_out          ;
+; |MY_LIGHT|A_NUM1[0]        ; |MY_LIGHT|A_NUM1[0]        ; pin_out          ;
+; |MY_LIGHT|A_NUM1[1]        ; |MY_LIGHT|A_NUM1[1]        ; pin_out          ;
+; |MY_LIGHT|A_NUM1[2]        ; |MY_LIGHT|A_NUM1[2]        ; pin_out          ;
+; |MY_LIGHT|A_NUM1[3]        ; |MY_LIGHT|A_NUM1[3]        ; pin_out          ;
+; |MY_LIGHT|A_LIGHT[0]       ; |MY_LIGHT|A_LIGHT[0]       ; pin_out          ;
+; |MY_LIGHT|A_LIGHT[1]       ; |MY_LIGHT|A_LIGHT[1]       ; pin_out          ;
+; |MY_LIGHT|A_LIGHT[2]       ; |MY_LIGHT|A_LIGHT[2]       ; pin_out          ;
+; |MY_LIGHT|B_NUM10[0]       ; |MY_LIGHT|B_NUM10[0]       ; pin_out          ;
+; |MY_LIGHT|B_NUM10[1]       ; |MY_LIGHT|B_NUM10[1]       ; pin_out          ;
+; |MY_LIGHT|B_NUM1[0]        ; |MY_LIGHT|B_NUM1[0]        ; pin_out          ;
+; |MY_LIGHT|B_NUM1[1]        ; |MY_LIGHT|B_NUM1[1]        ; pin_out          ;
+; |MY_LIGHT|B_NUM1[2]        ; |MY_LIGHT|B_NUM1[2]        ; pin_out          ;
+; |MY_LIGHT|B_NUM1[3]        ; |MY_LIGHT|B_NUM1[3]        ; pin_out          ;
+; |MY_LIGHT|B_LIGHT[0]       ; |MY_LIGHT|B_LIGHT[0]       ; pin_out          ;
+; |MY_LIGHT|B_LIGHT[1]       ; |MY_LIGHT|B_LIGHT[1]       ; pin_out          ;
+; |MY_LIGHT|B_LIGHT[2]       ; |MY_LIGHT|B_LIGHT[2]       ; pin_out          ;
+; |MY_LIGHT|LessThan0~24     ; |MY_LIGHT|LessThan0~24     ; out0             ;
+; |MY_LIGHT|LessThan0~25     ; |MY_LIGHT|LessThan0~25     ; out0             ;
+; |MY_LIGHT|LessThan0~26     ; |MY_LIGHT|LessThan0~26     ; out0             ;
+; |MY_LIGHT|LessThan0~27     ; |MY_LIGHT|LessThan0~27     ; out0             ;
+; |MY_LIGHT|LessThan1~24     ; |MY_LIGHT|LessThan1~24     ; out0             ;
+; |MY_LIGHT|LessThan1~25     ; |MY_LIGHT|LessThan1~25     ; out0             ;
+; |MY_LIGHT|LessThan1~26     ; |MY_LIGHT|LessThan1~26     ; out0             ;
+; |MY_LIGHT|LessThan1~27     ; |MY_LIGHT|LessThan1~27     ; out0             ;
+; |MY_LIGHT|LessThan1~28     ; |MY_LIGHT|LessThan1~28     ; out0             ;
+; |MY_LIGHT|LessThan1~29     ; |MY_LIGHT|LessThan1~29     ; out0             ;
+; |MY_LIGHT|LessThan1~30     ; |MY_LIGHT|LessThan1~30     ; out0             ;
+; |MY_LIGHT|LessThan2~24     ; |MY_LIGHT|LessThan2~24     ; out0             ;
+; |MY_LIGHT|LessThan2~25     ; |MY_LIGHT|LessThan2~25     ; out0             ;
+; |MY_LIGHT|LessThan2~26     ; |MY_LIGHT|LessThan2~26     ; out0             ;
+; |MY_LIGHT|LessThan2~27     ; |MY_LIGHT|LessThan2~27     ; out0             ;
+; |MY_LIGHT|LessThan2~28     ; |MY_LIGHT|LessThan2~28     ; out0             ;
+; |MY_LIGHT|LessThan2~29     ; |MY_LIGHT|LessThan2~29     ; out0             ;
+; |MY_LIGHT|LessThan2~30     ; |MY_LIGHT|LessThan2~30     ; out0             ;
+; |MY_LIGHT|LessThan2~31     ; |MY_LIGHT|LessThan2~31     ; out0             ;
+; |MY_LIGHT|LessThan3~24     ; |MY_LIGHT|LessThan3~24     ; out0             ;
+; |MY_LIGHT|LessThan3~25     ; |MY_LIGHT|LessThan3~25     ; out0             ;
+; |MY_LIGHT|LessThan3~26     ; |MY_LIGHT|LessThan3~26     ; out0             ;
+; |MY_LIGHT|LessThan3~27     ; |MY_LIGHT|LessThan3~27     ; out0             ;
+; |MY_LIGHT|LessThan3~28     ; |MY_LIGHT|LessThan3~28     ; out0             ;
+; |MY_LIGHT|LessThan3~29     ; |MY_LIGHT|LessThan3~29     ; out0             ;
+; |MY_LIGHT|LessThan4~20     ; |MY_LIGHT|LessThan4~20     ; out0             ;
+; |MY_LIGHT|LessThan4~21     ; |MY_LIGHT|LessThan4~21     ; out0             ;
+; |MY_LIGHT|LessThan4~22     ; |MY_LIGHT|LessThan4~22     ; out0             ;
+; |MY_LIGHT|LessThan5~20     ; |MY_LIGHT|LessThan5~20     ; out0             ;
+; |MY_LIGHT|LessThan5~21     ; |MY_LIGHT|LessThan5~21     ; out0             ;
+; |MY_LIGHT|LessThan5~22     ; |MY_LIGHT|LessThan5~22     ; out0             ;
+; |MY_LIGHT|LessThan5~23     ; |MY_LIGHT|LessThan5~23     ; out0             ;
+; |MY_LIGHT|LessThan5~24     ; |MY_LIGHT|LessThan5~24     ; out0             ;
+; |MY_LIGHT|LessThan6~20     ; |MY_LIGHT|LessThan6~20     ; out0             ;
+; |MY_LIGHT|LessThan6~21     ; |MY_LIGHT|LessThan6~21     ; out0             ;
+; |MY_LIGHT|LessThan6~22     ; |MY_LIGHT|LessThan6~22     ; out0             ;
+; |MY_LIGHT|LessThan7~20     ; |MY_LIGHT|LessThan7~20     ; out0             ;
+; |MY_LIGHT|LessThan7~21     ; |MY_LIGHT|LessThan7~21     ; out0             ;
+; |MY_LIGHT|LessThan7~22     ; |MY_LIGHT|LessThan7~22     ; out0             ;
+; |MY_LIGHT|LessThan7~23     ; |MY_LIGHT|LessThan7~23     ; out0             ;
+; |MY_LIGHT|LessThan7~24     ; |MY_LIGHT|LessThan7~24     ; out0             ;
+; |MY_LIGHT|Add0~30          ; |MY_LIGHT|Add0~30          ; out0             ;
+; |MY_LIGHT|Add0~31          ; |MY_LIGHT|Add0~31          ; out0             ;
+; |MY_LIGHT|Add0~32          ; |MY_LIGHT|Add0~32          ; out0             ;
+; |MY_LIGHT|Add0~33          ; |MY_LIGHT|Add0~33          ; out0             ;
+; |MY_LIGHT|Add0~34          ; |MY_LIGHT|Add0~34          ; out0             ;
+; |MY_LIGHT|Add0~35          ; |MY_LIGHT|Add0~35          ; out0             ;
+; |MY_LIGHT|Add0~36          ; |MY_LIGHT|Add0~36          ; out0             ;
+; |MY_LIGHT|Add0~37          ; |MY_LIGHT|Add0~37          ; out0             ;
+; |MY_LIGHT|Add0~38          ; |MY_LIGHT|Add0~38          ; out0             ;
+; |MY_LIGHT|Add1~35          ; |MY_LIGHT|Add1~35          ; out0             ;
+; |MY_LIGHT|Add1~36          ; |MY_LIGHT|Add1~36          ; out0             ;
+; |MY_LIGHT|Add1~37          ; |MY_LIGHT|Add1~37          ; out0             ;
+; |MY_LIGHT|Add1~38          ; |MY_LIGHT|Add1~38          ; out0             ;
+; |MY_LIGHT|Add1~39          ; |MY_LIGHT|Add1~39          ; out0             ;
+; |MY_LIGHT|Add1~40          ; |MY_LIGHT|Add1~40          ; out0             ;
+; |MY_LIGHT|Add1~41          ; |MY_LIGHT|Add1~41          ; out0             ;
+; |MY_LIGHT|Add1~42          ; |MY_LIGHT|Add1~42          ; out0             ;
+; |MY_LIGHT|Add2~30          ; |MY_LIGHT|Add2~30          ; out0             ;
+; |MY_LIGHT|Add2~31          ; |MY_LIGHT|Add2~31          ; out0             ;
+; |MY_LIGHT|Add2~32          ; |MY_LIGHT|Add2~32          ; out0             ;
+; |MY_LIGHT|Add2~33          ; |MY_LIGHT|Add2~33          ; out0             ;
+; |MY_LIGHT|Add2~34          ; |MY_LIGHT|Add2~34          ; out0             ;
+; |MY_LIGHT|Add2~35          ; |MY_LIGHT|Add2~35          ; out0             ;
+; |MY_LIGHT|Add3~30          ; |MY_LIGHT|Add3~30          ; out0             ;
+; |MY_LIGHT|Add3~31          ; |MY_LIGHT|Add3~31          ; out0             ;
+; |MY_LIGHT|Add3~32          ; |MY_LIGHT|Add3~32          ; out0             ;
+; |MY_LIGHT|Add3~33          ; |MY_LIGHT|Add3~33          ; out0             ;
+; |MY_LIGHT|Add3~34          ; |MY_LIGHT|Add3~34          ; out0             ;
+; |MY_LIGHT|Add3~35          ; |MY_LIGHT|Add3~35          ; out0             ;
+; |MY_LIGHT|Add3~36          ; |MY_LIGHT|Add3~36          ; out0             ;
+; |MY_LIGHT|Add4~35          ; |MY_LIGHT|Add4~35          ; out0             ;
+; |MY_LIGHT|Add4~36          ; |MY_LIGHT|Add4~36          ; out0             ;
+; |MY_LIGHT|Add4~37          ; |MY_LIGHT|Add4~37          ; out0             ;
+; |MY_LIGHT|Add4~38          ; |MY_LIGHT|Add4~38          ; out0             ;
+; |MY_LIGHT|Add4~39          ; |MY_LIGHT|Add4~39          ; out0             ;
+; |MY_LIGHT|Add4~40          ; |MY_LIGHT|Add4~40          ; out0             ;
+; |MY_LIGHT|Add4~41          ; |MY_LIGHT|Add4~41          ; out0             ;
+; |MY_LIGHT|Add4~42          ; |MY_LIGHT|Add4~42          ; out0             ;
+; |MY_LIGHT|Add5~20          ; |MY_LIGHT|Add5~20          ; out0             ;
+; |MY_LIGHT|Add6~25          ; |MY_LIGHT|Add6~25          ; out0             ;
+; |MY_LIGHT|Add6~26          ; |MY_LIGHT|Add6~26          ; out0             ;
+; |MY_LIGHT|Add6~27          ; |MY_LIGHT|Add6~27          ; out0             ;
+; |MY_LIGHT|Add6~28          ; |MY_LIGHT|Add6~28          ; out0             ;
+; |MY_LIGHT|Add7~20          ; |MY_LIGHT|Add7~20          ; out0             ;
+; |MY_LIGHT|Add8~25          ; |MY_LIGHT|Add8~25          ; out0             ;
+; |MY_LIGHT|Add8~26          ; |MY_LIGHT|Add8~26          ; out0             ;
+; |MY_LIGHT|Add8~27          ; |MY_LIGHT|Add8~27          ; out0             ;
+; |MY_LIGHT|Add8~28          ; |MY_LIGHT|Add8~28          ; out0             ;
++----------------------------+----------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------+
+; Missing 1-Value Coverage                                       ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |MY_LIGHT|EN         ; |MY_LIGHT|EN         ; out              ;
+; |MY_LIGHT|RES        ; |MY_LIGHT|RES        ; out              ;
+; |MY_LIGHT|A_NUM10[2] ; |MY_LIGHT|A_NUM10[2] ; pin_out          ;
+; |MY_LIGHT|A_NUM10[3] ; |MY_LIGHT|A_NUM10[3] ; pin_out          ;
+; |MY_LIGHT|B_NUM10[2] ; |MY_LIGHT|B_NUM10[2] ; pin_out          ;
+; |MY_LIGHT|B_NUM10[3] ; |MY_LIGHT|B_NUM10[3] ; pin_out          ;
++----------------------+----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------+
+; Missing 0-Value Coverage                                       ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |MY_LIGHT|EN         ; |MY_LIGHT|EN         ; out              ;
+; |MY_LIGHT|RES        ; |MY_LIGHT|RES        ; out              ;
+; |MY_LIGHT|A_NUM10[2] ; |MY_LIGHT|A_NUM10[2] ; pin_out          ;
+; |MY_LIGHT|A_NUM10[3] ; |MY_LIGHT|A_NUM10[3] ; pin_out          ;
+; |MY_LIGHT|B_NUM10[2] ; |MY_LIGHT|B_NUM10[2] ; pin_out          ;
+; |MY_LIGHT|B_NUM10[3] ; |MY_LIGHT|B_NUM10[3] ; pin_out          ;
++----------------------+----------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+    Info: Processing started: Thu Dec 06 11:15:39 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off MY_LIGHT -c MY_LIGHT
+Info: Using vector source file "D:/LKW_108/MY_LIGHT/MY_LIGHT.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      97.21 %
+Info: Number of transitions in simulation is 8980
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 135 megabytes
+    Info: Processing ended: Thu Dec 06 11:15:42 2018
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
