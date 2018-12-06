@@ -1,0 +1,229 @@
+Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+11
+1009
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+..|..|fjx_179|led_seven|
+..|..|fjx_179|divider|
+..|..|fjx_179|counter|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+MY_COUNTER100
+# storage
+db|TEST_COUNTER100.(1).cnf
+db|TEST_COUNTER100.(1).cnf
+# case_insensitive
+# source_file
+..|MY_COUNTER100|MY_COUNTER100.bdf
+5d83e4225e4329e92b5fad5091aacb76
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MY_COUNTER100:inst3
+}
+# macro_sequence
+
+# end
+# entity
+divider
+# storage
+db|TEST_COUNTER100.(2).cnf
+db|TEST_COUNTER100.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|fjx_179|divider|divider.vhd
+a3856ba2803b9dcbf4cdd2ef4637ee9f
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+LED_seven
+# storage
+db|TEST_COUNTER100.(3).cnf
+db|TEST_COUNTER100.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|fjx_179|led_seven|LED_seven.vhd
+b0b26023fb80831b5da27d88dece2
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+MY_COUNTER10
+# storage
+db|TEST_COUNTER100.(4).cnf
+db|TEST_COUNTER100.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|MY_COUNTER10|MY_COUNTER10.vhd
+2b20c863611032254fa4417a7ab7192
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MY_COUNTER100:inst3|MY_COUNTER10:inst1
+MY_COUNTER100:inst3|MY_COUNTER10:inst
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+MY_LED7
+# storage
+db|TEST_COUNTER100.(6).cnf
+db|TEST_COUNTER100.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|MY_LED7|MY_LED7.vhd
+8ab9a5be8e1c643befef14a77c7a6196
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MY_LED7:inst9
+MY_LED7:inst
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+TEST_COUNTER100
+# storage
+db|TEST_COUNTER100.(0).cnf
+db|TEST_COUNTER100.(0).cnf
+# case_insensitive
+# source_file
+TEST_COUNTER100.bdf
+197769b5fc93c621e211775ac74723
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+MY_DIVIDER
+# storage
+db|TEST_COUNTER100.(5).cnf
+db|TEST_COUNTER100.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|MY_DIVIDER|MY_DIVIDER.vhd
+ba429f35d51a1d659ca2d25ea34f643
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MY_DIVIDER:inst1
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+
