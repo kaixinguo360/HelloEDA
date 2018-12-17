@@ -1,0 +1,147 @@
+Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+11
+1009
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+d:|fjx_179|led_seven|
+d:|fjx_179|divider|
+d:|fjx_179|counter|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+count_108
+# storage
+db|top_108.(1).cnf
+db|top_108.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|count_108|count_108.vhd
+73b4e610c95abeaa69227ad8174f162
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+count_108:inst1
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+div_108
+# storage
+db|top_108.(2).cnf
+db|top_108.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|div_108|div_108.vhd
+627e3fb41e67fe72d8624274cee82c
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+div_108:inst
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+decode_108
+# storage
+db|top_108.(3).cnf
+db|top_108.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|decode_108|decode_108.vhd
+1a3188e3a72a8d4972872f39ea99dcd4
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+decode_108:inst2
+}
+# lmf
+c:|altera|80|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+top_108
+# storage
+db|top_108.(0).cnf
+db|top_108.(0).cnf
+# case_insensitive
+# source_file
+top_108.bdf
+9c8d3ac0fa9454364de01919c2551184
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,38 @@
+|decode_108
+A => Mux6.IN16
+A => Mux5.IN16
+A => Mux4.IN16
+A => Mux3.IN16
+A => Mux2.IN16
+A => Mux1.IN16
+A => Mux0.IN16
+B => Mux6.IN17
+B => Mux5.IN17
+B => Mux4.IN17
+B => Mux3.IN17
+B => Mux2.IN17
+B => Mux1.IN17
+B => Mux0.IN17
+C => Mux6.IN18
+C => Mux5.IN18
+C => Mux4.IN18
+C => Mux3.IN18
+C => Mux2.IN18
+C => Mux1.IN18
+C => Mux0.IN18
+D => Mux6.IN19
+D => Mux5.IN19
+D => Mux4.IN19
+D => Mux3.IN19
+D => Mux2.IN19
+D => Mux1.IN19
+D => Mux0.IN19
+Y[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
